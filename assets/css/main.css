@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.form-label {
+    @apply font-medium text-sm text-white sm:text-black;
+}
+
+.form-input {
+    @apply bg-purple-100 px-4 py-2 rounded outline-none w-full mt-2
+}
