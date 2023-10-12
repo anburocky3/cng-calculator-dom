@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNG Calculator | Anbuselvan Rocky</title>
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="/cng-calculator/assets/index-6c3bf25c.css" />
+  </head>
+  <body
+    class="bg-gradient-to-r from-purple-500 to-red-500 min-h-screen font-roboto"
+  >
+    <div
+      class="bg-zinc-800 sm:bg-white p-10 max-w-lg mx-auto mt-10 rounded shadow-xl"
+    >
+      <div class="">
+        <h1 class="font-bold text-red-500">CNG Cost Calculator</h1>
+      </div>
+
+      <form class="mt-5 space-y-4">
+        <div>
+          <label for="trip-distance" class="form-label"
+            >Trip Distance <span class="text-red-500">*</span></label
+          >
+          <input
+            id="trip-distance"
+            type="number"
+            placeholder="Trip Distance"
+            class="form-input"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="fuel-efficiency" class="form-label"
+            >Fuel Efficiency <span class="text-red-500">*</span></label
+          >
+          <input
+            id="fuel-efficiency"
+            type="number"
+            placeholder="Fuel Efficiency"
+            class="form-input"
+            value="24"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="fuel-cost" class="form-label"
+            >Fuel Cost <span class="text-red-500">*</span></label
+          >
+          <input
+            id="fuel-cost"
+            type="number"
+            placeholder="Fuel cost"
+            class="form-input"
+            value="84"
+            required
+          />
+        </div>
+
+        <div>
+          <button class="bg-red-500 px-4 py-2 rounded text-white w-full">
+            Calculate
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
