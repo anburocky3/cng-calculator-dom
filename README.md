@@ -1,10 +1,14 @@
-# cng-calculator
+# cng-calculator-dom
 
 Simple CNG calculator app for calculating cng cost.
 
-### Live:
+NEW CNG calculator app is [here](https://github.com/anburocky3/cng-calculator)
+
+### Live: [https://anburocky3.github.io/cng-calculator-dom](https://anburocky3.github.io/cng-calculator-dom)
 
 ### Screenshots
+
+![Screenshot](./screenshots/cng-calculator.png)
 
 ### Screen sizes
 
